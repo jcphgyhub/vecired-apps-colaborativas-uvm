@@ -1,0 +1,39 @@
+{
+  "name": "vecired",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^5.2.2",
+    "@tanstack/react-query": "^5.90.5",
+    "@tanstack/react-table": "^8.21.3",
+    "lucide-react": "^0.545.0",
+    "motion": "^12.23.24",
+    "next": "16.3.8",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-hook-form": "^7.65.0",
+    "tailwind-merge": "^3.3.1",
+    "zod": "^4.1.11",
+    "zustand": "^5.0.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.0",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.0",
+    "@types/node": "^24.7.0",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "jsdom": "^27.0.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "4.3.0",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
+  }
+}
